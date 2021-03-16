@@ -1,0 +1,41 @@
+body {
+  font-family: 'Open Sans';
+  margin-left: auto;
+  margin-right: auto;
+  color: lightgray;
+  background-color: rgb(38, 40, 51);
+}
+h1 {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 45px;
+  color: white;
+  padding: 20px;
+}
+a {
+  color: lightgray;
+}
+.volta1 {
+  margin: 10px;
+  padding: 10px;
+  width: 97%;
+  background-color: rgb(36, 38, 49);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 200ms ease-out;
+}
+.volta1:hover {
+  box-shadow: 0 0 8px rgba(22, 22, 29, 1);
+}
+.volta2 {
+  margin: 5px;
+  padding: 5px;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(35, 37, 48);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 200ms ease-out;
+}
+.volta2:hover {
+  box-shadow: 0 0 4px rgba(22, 22, 29, 1);
+}
