@@ -2,7 +2,6 @@ body {
   font-family: 'Open Sans';
   margin-left: auto;
   margin-right: auto;
-  color: lightgray;
   background-color: rgb(38, 40, 51);
 }
 h1 {
@@ -10,18 +9,21 @@ h1 {
   font-weight: 300;
   font-size: 45px;
   color: white;
-  padding: 20px;
+  padding: 0px;
+  margin-left: 29px;
 }
-a {
+a, h2, h3, div {
   color: lightgray;
 }
 .volta1 {
   margin: 10px;
   padding: 10px;
-  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
   background-color: rgb(36, 38, 49);
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
-  transition: box-shadow 200ms ease-out;
+  transition: box-shadow 300ms ease-out;
 }
 .volta1:hover {
   box-shadow: 0 0 8px rgba(22, 22, 29, 1);
